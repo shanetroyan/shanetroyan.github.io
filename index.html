@@ -1,6 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head>
+
+	<iframe data-src="[npm-folder]/index.html" allow="clipboard-read; clipboard-write" name="studio-iframe"></iframe>
+<script src="[npm-folder]/assets/js/apt_query.min.js"></script>
+<script src="[npm-folder]/assets/js/iframe.min.js"></script>
+<style>
+[name="studio-iframe"].fullscreen{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+}
+</style>
+<script>
+adiptal.studio.settings[ "studio-iframe" ] = {
+	"relative_url": false,
+	"metadata": false,
+	"font_family": {
+		"list": {
+			"Roboto": "'Roboto', sans-serif",
+			"Arial": "Arial, Helvetica, sans-serif",
+			"Tahoma": "Tahoma, Verdana, sans-serif",
+			"Trebuchet MS": "'Trebuchet MS', Helvetica, sans-serif",
+			"Times New Roman": "'Times New Roman', Times, serif",
+			"Georgia": "Georgia, serif",
+			"Garamond": "Garamond, serif",
+			"Courier New": "'Courier New', Courier, monospace",
+			"Geneva": "Geneva, Verdana, sans-serif"
+		},
+		"links": [
+			"<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin><link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap\" rel=\"stylesheet\">"
+		],
+		"default": "'Roboto', sans-serif"
+	}
+};
+adiptal.studio.init( document.querySelector( '[name="studio-iframe"]' ) );
+</script>
+	
+	<head>
 <title>Shane Troyan - Personal Website</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
