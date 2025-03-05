@@ -82,7 +82,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-rest{overflow:hidden}.w3-stretch{margin-left:-16px;margin-right:-16px}
 .w3-content,.w3-auto{margin-left:auto;margin-right:auto;background-color: lightblue;}
 
-div#about {}.w3-content{max-width: 180px;}.w3-auto{max-width:1140px}
+div#about {}.w3-content{}.w3-auto{max-width:1140px}
 .w3-cell-row{display:table;width:100%}.w3-cell{display:table-cell}
 .w3-cell-top{vertical-align:top}.w3-cell-middle{vertical-align:middle}.w3-cell-bottom{vertical-align:bottom}
 .w3-hide{display:none!important}.w3-show-block,.w3-show{display:block!important}.w3-show-inline-block{display:inline-block!important}
