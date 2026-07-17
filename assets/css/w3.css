@@ -433,7 +433,7 @@ a {
 .w3-dropdown-content {
     cursor: auto;
     color: #000;
-    background-color: #fff;
+    background-color: blue-gray;
     display: none;
     position: absolute;
     min-width: 160px;
